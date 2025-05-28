@@ -1,11 +1,20 @@
+import Lottie from 'lottie-react';
 import React from 'react';
+// import RegisterLottie from '../assets/RegisterLottie.json'
+import RegisterLottie from '../assets/RegisterLottie.json'
+
 
 const Register = () => {
+
     return (
  <div className="hero min-h-[500px]">
   <div className="hero-content flex-col lg:flex-row-reverse">
     <div className="text-center lg:text-left">
+     <Lottie loop={true} animationData={RegisterLottie}
+     style={{width:'300px'}}
+      >
      
+     </Lottie>
      
     </div>
     <div className="card bg-base-100 shadow-2xl">
